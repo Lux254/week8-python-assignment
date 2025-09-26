@@ -54,7 +54,7 @@ Most common words appearing in research paper titles.
 #### 4. Distribution of Paper Counts by Source  
 How research papers are distributed across sources.  
 
-📊 *[plots/sources.png]*  
+📊 *[plots\sources.png]*  
 
 ---
 
@@ -63,34 +63,3 @@ A simple Streamlit app was built to:
 - Display a sample of the dataset.  
 - Allow interactive filtering.  
 - Show visualizations in an interactive way.  
-
-Run the app with:  
-```bash
-streamlit run app.py
-
-🚀 How to Run
-
-Clone this repository.
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-
-Run scripts for cleaning and visualization.
-
-Launch the Streamlit app.
-
-📌 Requirements
-
-Python 3.x
-
-pandas
-
-matplotlib
-
-seaborn
-
-wordcloud
-
-streamlit
