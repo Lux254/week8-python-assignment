@@ -29,9 +29,9 @@ This project explores a dataset of COVID-19 research papers, cleans the data, pe
 - Explored dataset using `.head()`, `.info()`, and `.describe()`.
 
 📸 **Screenshots**  
-- Dataset head: *[Insert Image Here]*  
-- Dataset info: *[Insert Image Here]*  
-- Dataset describe: *[Insert Image Here]*  
+- Dataset head: *[screenshots/head.png]*  
+- Dataset info: *[screenshots/info.png]*  
+- Dataset describe: *[screenshots/describe.png]*  
 
 ---
 
