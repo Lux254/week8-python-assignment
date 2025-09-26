@@ -54,7 +54,7 @@ Most common words appearing in research paper titles.
 #### 4. Distribution of Paper Counts by Source  
 How research papers are distributed across sources.  
 
-📊 ![Paper Counts](plots\sources.png)
+📊 ![Paper Counts](plots/sources.png)
 
 ---
 
