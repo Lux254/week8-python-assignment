@@ -1,58 +1,114 @@
-# 📘 CORD-19 Data Exploration
+# COVID-19 Research Papers Analysis
 
-## 📌 Overview  
-This project explores the **CORD-19 dataset (metadata.csv)** using **Python, Pandas, Matplotlib, Seaborn, and Streamlit**.  
-It demonstrates the full **data science workflow**:  
-1. Data loading & exploration  
-2. Data cleaning & preparation  
-3. Data analysis & visualization  
-4. Interactive Streamlit application  
+This project explores a dataset of COVID-19 research papers, cleans the data, performs analysis, and visualizes key insights. Finally, a simple Streamlit application is built to make the results interactive.
 
 ---
 
-## 📊 Steps Completed  
+## 📂 Project Structure
 
-### Part 1: Data Loading & Exploration  
-- Loaded `metadata.csv` into a Pandas DataFrame  
-- Checked shape, data types, and missing values  
-- Generated summary statistics  
+- **data/**  
+  - `raw/` → original dataset  
+  - `cleaned/` → cleaned dataset  
 
-### Part 2: Data Cleaning & Preparation  
-- Dropped useless columns (`mag_id`)  
-- Handled missing values (`title`, `abstract`, `journal`, `publish_time`)  
-- Converted `publish_time` to datetime  
-- Extracted publication year (`year`)  
-- Added `abstract_word_count` column  
+- **scripts/**  
+  - `data_cleaning.py` → cleaning and preprocessing  
+  - `analysis_visualization.py` → analysis and visualizations  
+  - `app.py` → Streamlit application  
 
-### Part 3: Data Analysis & Visualization  
-- Counted papers per year  
-- Identified top journals publishing COVID-19 research  
-- Found most frequent words in titles  
-- Created visualizations:  
-  - Publications by year  
-  - Top journals bar chart  
-  - Word cloud of titles  
-  - Distribution of papers by source  
+- **plots/**  
+  - Contains saved plots and figures  
 
-### Part 4: Streamlit Application  
-- Built an interactive app with:  
-  - Year range slider  
-  - Journal filter dropdown  
-  - Visualizations (bar charts, word cloud)  
-  - Data sample display  
+- **README.md** → project documentation  
 
 ---
 
-## ▶️ How to Run the Streamlit App  
+## 🛠️ Steps Completed
 
-1. Install required libraries:  
-   ```bash
-   pip install pandas matplotlib seaborn streamlit wordcloud
+### Part 1: Load and Explore the Dataset
+- Loaded dataset (`.csv`) using pandas.  
+- Explored dataset using `.head()`, `.info()`, and `.describe()`.
 
-2. Run the app:
-   streamlit run app.py
+📸 **Screenshots**  
+- Dataset head: *[Insert Image Here]*  
+- Dataset info: *[Insert Image Here]*  
+- Dataset describe: *[Insert Image Here]*  
 
-3. Open the link shown in the terminal
+---
+
+### Part 2: Data Cleaning and Preparation
+- Handled missing values.  
+- Removed irrelevant columns (e.g., `mag_id`).  
+- Converted `publish_time` to datetime.  
+- Extracted publication year.  
+- Created new feature: abstract word count.  
+
+📂 Cleaned dataset saved as: `data/cleaned/covid19_cleaned.csv`
+
+---
+
+### Part 3: Data Analysis and Visualization
+
+#### 1. Publications over Time  
+Counts of COVID-19 research papers published each year.  
+
+📊 *[plots/publications.png]*  
+
+---
+
+#### 2. Top Publishing Journals  
+Identifying the top journals contributing to COVID-19 research.  
+
+📊 *[Insert Plot: Top Publishing Journals]*  
+
+---
+
+#### 3. Word Cloud of Paper Titles  
+Most common words appearing in research paper titles.  
+
+☁️ *[Insert Plot: Word Cloud of Paper Titles]*  
+
+---
+
+#### 4. Distribution of Paper Counts by Source  
+How research papers are distributed across sources.  
+
+📊 *[plots/]*  
+
+---
+
+### Part 4: Streamlit Application
+A simple Streamlit app was built to:  
+- Display a sample of the dataset.  
+- Allow interactive filtering.  
+- Show visualizations in an interactive way.  
+
+Run the app with:  
+```bash
+streamlit run app.py
+
+🚀 How to Run
+
+Clone this repository.
+
+Install dependencies:
+
+pip install -r requirements.txt
 
 
+Run scripts for cleaning and visualization.
 
+Launch the Streamlit app.
+
+📌 Requirements
+
+Python 3.x
+
+pandas
+
+matplotlib
+
+seaborn
+
+wordcloud
+
+streamlit
