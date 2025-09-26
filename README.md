@@ -11,9 +11,9 @@ This project explores a dataset of COVID-19 research papers, cleans the data, pe
 - Explored dataset using `.head()`, `.info()`, and `.describe()`.
 
 📸 **Screenshots**  
-- Dataset head: (screenshots/head.png)
-- Dataset info: *[screenshots/info.png]*  
-- Dataset describe: *[screenshots/describe.png]*  
+- Dataset head: ![head](screenshots/head.png)
+- Dataset info: ![info](screenshots/info.png)
+- Dataset describe: ![describe](screenshots/describe.png)
 
 ---
 
@@ -33,29 +33,28 @@ This project explores a dataset of COVID-19 research papers, cleans the data, pe
 #### 1. Publications over Time  
 Counts of COVID-19 research papers published each year.  
 
-📊 *[plots/publications.png]*  
+📊 ![Publications](plots/publications.png)
 
 ---
 
 #### 2. Top Publishing Journals  
 Identifying the top journals contributing to COVID-19 research.  
 
-📊 *[plots/journals.png]*  
+📊 ![Journals](plots/journals.png)
 
 ---
 
 #### 3. Word Cloud of Paper Titles  
 Most common words appearing in research paper titles.  
 
-☁️ *[plots/word_cloud.png]*  
-![Line Chart](plots/word_cloud.png)
+☁️ ![Word Cloud](plots/word_cloud.png)
 
 ---
 
 #### 4. Distribution of Paper Counts by Source  
 How research papers are distributed across sources.  
 
-📊 *[plots\sources.png]*  
+📊 ![Paper Counts](plots\sources.png)
 
 ---
 
