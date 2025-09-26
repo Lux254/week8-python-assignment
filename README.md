@@ -48,6 +48,7 @@ Identifying the top journals contributing to COVID-19 research.
 Most common words appearing in research paper titles.  
 
 ☁️ *[plots/word_cloud.png]*  
+![Line Chart](plots/word_cloud.png)
 
 ---
 
