@@ -4,24 +4,6 @@ This project explores a dataset of COVID-19 research papers, cleans the data, pe
 
 ---
 
-## 📂 Project Structure
-
-- **data/**  
-  - `raw/` → original dataset  
-  - `cleaned/` → cleaned dataset  
-
-- **scripts/**  
-  - `data_cleaning.py` → cleaning and preprocessing  
-  - `analysis_visualization.py` → analysis and visualizations  
-  - `app.py` → Streamlit application  
-
-- **plots/**  
-  - Contains saved plots and figures  
-
-- **README.md** → project documentation  
-
----
-
 ## 🛠️ Steps Completed
 
 ### Part 1: Load and Explore the Dataset
@@ -58,21 +40,21 @@ Counts of COVID-19 research papers published each year.
 #### 2. Top Publishing Journals  
 Identifying the top journals contributing to COVID-19 research.  
 
-📊 *[Insert Plot: Top Publishing Journals]*  
+📊 *[plots/journals.png]*  
 
 ---
 
 #### 3. Word Cloud of Paper Titles  
 Most common words appearing in research paper titles.  
 
-☁️ *[Insert Plot: Word Cloud of Paper Titles]*  
+☁️ *[plots/word_cloud.png]*  
 
 ---
 
 #### 4. Distribution of Paper Counts by Source  
 How research papers are distributed across sources.  
 
-📊 *[plots/]*  
+📊 *[plots/sources.png]*  
 
 ---
 
